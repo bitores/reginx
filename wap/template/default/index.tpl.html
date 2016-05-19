@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wap首页</title>
+</head>
+<body>
+<h3>模板相关常量</h3>
+<p>
+    当前模板Url : {__CTPL_URL__} <br/>
+    对应的物理路径为 : {__TPL_PATH__}default
+</p>
+
+<p>
+    当前页面绝对路径Url : {url:'index'}<br/>
+    当前页面相对路径Url : {url:'@index'}
+</p>
+<p>
+    拼接地址 : {url:'@index-foo'}<br/>
+    对应模块 : {__APP_PATH__}module/index.module.php<br/>
+    对应动作 : fooAction ()
+</p>
+<p>
+    使用url标签构造JS变量 :　<br/>
+    &lt;script&gt;
+        var ajax_url = '{url:'@index-ajax'}';
+    &lt;/script&gt;
+</p>
+</body>
+</html>
