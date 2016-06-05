@@ -43,7 +43,7 @@ new reginx ();
         'redis' => array (
             0 => array (
                 // IP地址
-                'host' => '192.168.0.188',
+                'host' => '192.168.0.28',
                 // 端口
                 'port' => 6379,
                 // 数据库
@@ -70,7 +70,7 @@ new reginx ();
         )
     ),
     // 常量
-    'static_url'    => 'http://static.kuaiqiangche.com/static/',
-    'upload_url'    => 'http://static.kuaiqiangche.com/data/attachment/',
+    'static_url'    => 'http://xxx.xxx.com/static/',
+    'upload_url'    => 'http://xxx.xxx.com/data/',
 );
 ```
