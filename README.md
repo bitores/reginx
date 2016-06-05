@@ -1,3 +1,5 @@
+# 使用配置
+```
 include ('../reginx/reginx.php');
 new reginx ();
 <?php
@@ -71,3 +73,4 @@ new reginx ();
     'static_url'    => 'http://static.kuaiqiangche.com/static/',
     'upload_url'    => 'http://static.kuaiqiangche.com/data/attachment/',
 );
+```
